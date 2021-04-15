@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="musicDetails--control">
+            <audio id="playAudio" src="assets/music/bensound-sweet.mp3" controls>
+                <source src="assets/music/bensound-sweet.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+              </audio>
+              <canvas id="musicPlayerControl" width="400" height="400"></canvas>  
+        </div>
+        <div class="musicDetails--actions">
+            <span id="muteIcon"><i class="fa fa-volume-up" aria-hidden="true"></i></span>
+            <span id="playMusic" class=""><i class="fa fa-play"></i></span>
+            <span id="nextMusic"><i class="fa fa-forward"></i></span>
+        </div>
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+</html>

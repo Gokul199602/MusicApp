@@ -1,0 +1,53 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container
+{
+
+}
+.musicDetails--control
+{
+    height: 40vh;
+    min-height: 261px;
+    margin-top: 4%;
+}
+
+.musicDetails--control audio
+{
+    display: none;
+}
+
+.musicDetails--actions
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.musicDetails--actions>span:not(:nth-child(2))
+{
+    padding: 8px 31px;
+    border: 1px solid #39c9eb;
+    border-radius: 29px;
+    cursor: pointer;
+    color: #39c9eb;
+}
+
+.musicDetails--actions>span:nth-child(2)
+{
+    padding: 20px 40px;
+    border: 1px solid #39c9eb;
+    border-radius:50px;
+    color:#39c9eb;
+    font-size:30px
+}
+
+
+/* canvas
+{
+    width: 100%;
+    height: 248px;
+} */
